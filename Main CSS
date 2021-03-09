@@ -1,0 +1,116 @@
+/************************************************/
+/* IMPORTS
+/************************************************/
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Responsive_mobile.css&only=styles";
+
+/*===========================*/
+/*    New Global Navigator   */
+/*===========================*/
+
+/* Imported from Manuel de la Fuente */
+
+.wds-global-navigation {
+    background-color: transparent;
+    transition: top .3s;
+}
+
+.wds-global-navigation::after {
+    background-color: #000;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.wds-global-navigation__logo path {
+    fill: #fff;
+}
+
+.wds-global-navigation__link,
+.wds-global-navigation__search.wds-dropdown,
+.wds-global-navigation__notifications-dropdown,
+.wds-global-navigation__start-a-wiki .wds-button.wds-is-secondary:not(:disabled) {
+    color: #fff;
+}
+
+.wds-global-navigation__start-a-wiki .wds-button.wds-is-secondary:not(:disabled) {
+    border-color: #fff;
+}
+
+.wds-global-navigation__link-group .wds-dropdown__content .wds-button.wds-is-secondary,
+.wds-global-navigation__notifications-dropdown .wds-dropdown__content .wds-button.wds-is-secondary,
+.wds-global-navigation__user-menu .wds-dropdown__content .wds-button.wds-is-secondary {
+    border-color: #000;
+    color: #000;
+}
+
+.wds-global-navigation__search-submit:not(.wds-is-text):not(.wds-is-secondary) {
+    background-color: #8b0503;
+}
+
+.wds-global-navigation__search-submit:not(.wds-is-text), .wds-search-is-active .wds-global-navigation__search-input-wrapper {
+    border-color: #8b0503;
+}
+
+/*===========================*/
+/*     Source Editor 2010    */
+/*===========================*/
+
+/* Imported from Ultragustavo25 */
+
+.ve-active .wds-global-navigation-wrapper,
+.mw-editable.action-edit .wds-global-navigation-wrapper {
+    position: absolute;
+}
+.ve-active .ve-ui-toolbar-floating > .oo-ui-toolbar-bar,
+.ve-active .ve-ui-summaryPanel {
+    position: unset;
+}
+.oo-ui-window-body {
+    font-family: Helvetica,Arial,sans-serif;
+}
+ 
+.mw-editable.action-edit .WikiaSiteWrapper {
+    margin-left: 7em;
+    margin-right: 7em;
+    width: auto;
+}
+.mw-editable.action-edit .WikiaSiteWrapper .WikiaPageContentWrapper {
+    padding: .5em 1.5em;
+    font-family: inherit;
+}
+ 
+.wikiEditor-ui #msupload-div {
+    padding: 0;
+    background: #657d91;
+    border: 1px solid #aaa;
+    border-radius: 0;
+}
+ 
+.wikiEditor-ui .wikiEditor-ui-toolbar {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+.wikiEditor-ui .wikiEditor-ui-toolbar .sections .section {
+    margin-top: 0;
+    padding-top: 0;
+}
+ 
+.wikiEditor-ui .wikiEditor-ui-view.wikiEditor-ui-view-wikitext {
+    border-width: 1px;
+    border-radius: 3px 3px 0 0;
+}
+ 
+.wikiEditor-ui-toolbar .group .tool-select {
+    margin: 4px;
+}
+ 
+.wikiEditor-ui .wikiEditor-ui-view.wikiEditor-ui-view-wikitext .wikiEditor-ui-top {
+    min-height: 72px;
+    border-bottom: 1px solid #c8ccd1;
+}
