@@ -7,8 +7,6 @@
 /*    New Global Navigator   */
 /*===========================*/
 
-/* Imported and adapted from Manuel de la Fuente */
-
 .wds-global-navigation {
     background-color: transparent;
     transition: top .3s;
@@ -59,8 +57,6 @@
 /*===========================*/
 /*     Source Editor 2010    */
 /*===========================*/
-
-/* Imported and adapted from Ultragustavo25 */
 
 .ve-active .wds-global-navigation-wrapper,
 .mw-editable.action-edit .wds-global-navigation-wrapper {
